@@ -1,14 +1,9 @@
 ![Homework 1](img/header.png)
 
-*This homework is due on Thursday, February 13th 2014 at 11:59 pm.*
 
 <hr>
 
-**Assignment completed by:** Renzo Lucioni
-
-**Email:** rlucioni@college.harvard.edu
-
-**HUID:** 90760092
+**Assignment completed by:** Fraser Campbell
 
 <hr>
 
