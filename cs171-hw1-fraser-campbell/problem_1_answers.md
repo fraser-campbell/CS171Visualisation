@@ -1,0 +1,7 @@
+1. The `colspan="3"` attribute of the `<th>` node means that the elements spans across three columns of the table in width. Ingeneral the "colspan" attribute defines how many columns the header elements should span across
+
+2. The following styles are applied directly to the 'th' element containing the Rank of the states
+	- align = "centre" - HTML attribute (CSS equivalent 'text_align: centre'), aligns the text in the centre of the cell
+	- 'padding 3px': CSS style, this adds 3 pixels of whitespace between the border of the element and the inner content
+
+3. The DOM inspector allows you to interogate the DOM clicking into the part of the nested structure which you are interested in. It also has the useful capability of inspecting elements by clicking on the page and being shown exactly where these elements occur within the HTML code. Furthermore the DOM inspector allows you to see the Styles applied to elements easily, and to experiment with how changing these affects the appearance of the HTML on the page. Most importantly though the DOM inspector allows you to consider the DOM in it's current state rather than the static state of the HTML code. This is particularly important when the page incorporates Javascript and D3 for interactivity. The main use of the HTML source is to view the code prior to any Javascript adaptions.
