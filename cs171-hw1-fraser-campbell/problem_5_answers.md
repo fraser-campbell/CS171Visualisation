@@ -1,0 +1,7 @@
+1. This bar chart is not useable in its current form. The scale is not included to understand what the relative length of the bars mean, the chart has no title nor any labelling of the bars to understand what they refer to. It would also be useful to rearrange bars for comparison.
+
+2. Level 1 - Allows you to group all the below elements and position the entire chart, title, legend etc included at a particular point on the screen
+   Level 2 - A "g" element which a title could be added too and which groups all the bars
+   Level 3 - A "g" element to reference each bar and it's related text
+
+3. Assuming that our `rect` elements are not transparent, the order in which the `text` elements are added matters. If the `text` elements are added before the `rect` elements, the `rect` elements will be layered over the `text` elements, obscuring them from view. If the `text` elements are added after the `rect` elements, the `text` elements will be layered over the `rect` elements, allowing them to be visible. So, we want to add the `text` elements after the `rect` elements. However, if our `rect` elements have some transparency, the order in which the `text` elements are added is not as important; the `text` elements will be visible even if the `rect` elements are layered over them.
