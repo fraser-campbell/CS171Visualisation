@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+ <html>
+ <style>
+
+/*Styling for tooltip*/
+#tooltip {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	pointer-events: none;
+}
+
+#tooltip.hidden {
+	display: none;
+}
+
+#tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+  .link {
+    stroke: gray;
+    stroke-width: 1.5px;
+  }
+
+  .node {
+    stroke: #000;
+    stroke-width: 1px;
+  }
+
+ </style>
+ <body>
+
+<!-- Tooltip -->
+	<div id="tooltip" class="hidden">
+		<p><span id="value">100</span></p>
+	</div>
+
+ <script src="http://d3js.org/d3.v3.min.js"></script>
+ <script>
+	 
+	 d3.select("body").append("button").text("change scale").on({
+	    "click": function() {
+	      return changeScale();
+	    }
+	  });
+
+	 var isIndexScale = false;
+
+	 var width = 1400,
+	     height = 500;
+
+	 var margin = {
+	 	top: 10,
+	 	bottom: 10,
+	 	left: 10,
+	 	right: 10
+	 };
+
+	 var svg = d3.select("body").append("svg")
+	             .attr("width", width)
+	             .attr("height", height);
+	 
+	 var link = svg.selectAll(".link"),
+    	 node = svg.selectAll(".node");
+
+	 var graph = {nodes:[], links:[]};
+
+	 var minDate = Number(Date.now()),
+	 	 maxDate = 0;
+
+	 var colourScale = d3.scale.ordinal()
+	 					.domain([1, 2]).range(["red", "blue"]);
+
+	 // build the arrow.
+	svg.append("svg:defs").selectAll("marker")
+		.data(["end"])      // Different link/path types can be defined here
+	  	.enter().append("svg:marker")    // This section adds in the arrows
+		.attr("id", String)
+		.attr("viewBox", "0 -5 10 10")
+		.attr("refX", 15)
+		.attr("refY", -1.5)
+		.attr("markerWidth", 6)
+		.attr("markerHeight", 6)
+		.attr("orient", "auto")
+		.append("svg:path")
+		.attr("d", "M0,-5L10,0L0,5");
+
+	 d3.json("commits_branch1_PhysicsJS.json", function(error, data1){
+	 	d3.json("commits_branch2_PhysicsJS.json", function(error, data2){
+		 	//Load first dataset
+		 	data1.forEach(function(d, i){
+		 		//Add the nodes with all metadata of a commit
+		 		graph.nodes.push([d, 1]);
+		 	})
+		 	//Load second dataset
+		 	data2.forEach(function(d, i){
+		 		var test = false;
+		 		graph.nodes.forEach(function(e, j){
+		 			if(e[0].sha == d.sha){
+		 				test = true;
+		 			}
+		 		})
+		 		if(test == false){
+		 			//Add the nodes with all metadata of a commit if they didn't appear in the master branch already
+		 			graph.nodes.push([d, 2]);
+		 		}
+		 	})
+
+		 	//Evaluate min and max dates
+		 	graph.nodes.forEach(function(d, i) {
+		 		if(Number(new Date(d[0].commit.author.date)) > maxDate){
+	 	 			maxDate = Number(new Date(d[0].commit.author.date));
+	 	 		}
+	 	 		if(Number(new Date(d[0].commit.author.date)) < minDate){
+	 	 			minDate = Number(new Date(d[0].commit.author.date));
+	 	 		}
+	 	 	})
+
+		 	//This piece of code sorts the nodes by date of commit
+		 	graph.nodes.sort(function(a,b){
+		 		return Number(new Date(a[0].commit.author.date)) - Number(new Date(b[0].commit.author.date))
+		 	})
+
+	 	 	//Add an x-scale based on commit dates
+	 	 	var scaletime = d3.scale.linear().domain([minDate, maxDate]).range([margin.left, width - margin.right]);
+	 	 	//Add an x-scale based on index (equi-distant)
+	 	 	var scaleindex = d3.scale.linear().domain([0, graph.nodes.length]).range([margin.left, width - margin.right]);
+
+		 	//Add coordinates to the commits
+	 		graph.nodes.forEach(function(d, i) {
+		      d.y = height/5 + 100*d[1];
+		      // d.x = scaletime(Number(new Date(d[0].commit.author.date)));
+		      //Start with indexed scale
+		      d.x = scaleindex(i);
+		    })
+
+			//Add the links
+		 	graph.nodes.map(function(d, i){
+		 		graph.nodes.map(function(e, j){
+		 			e[0].parents.forEach(function(f, k){
+				 		if(d[0].sha == f.sha){
+			       			graph.links.push({"source": i, "target": j});
+				 		}
+				 	})
+				})
+	 		})
+		 	
+		 	//Use a force layout to connect nodes with links
+		 	var force = d3.layout.force();
+		    force.nodes(graph.nodes)
+		      .links(graph.links)
+		      .start();
+
+		    var line = d3.svg.line()
+  				.x(function(d) { return d.x; })
+  				.y(function(d) { return d.y; });
+
+
+		    //Create the graph to start with
+		    	node = node.data(graph.nodes)
+				  .enter().append("g").attr("class", "node")
+				  .attr("fill", function(d){
+				  	return colourScale(d[1]);
+				  })
+				  .attr("transform", function(d) { 
+		      		return "translate("+d.x+","+d.y+")";
+		      	  });
+
+				//Append line elements to links
+		      	link = link.data(graph.links)
+				  .enter().append("path")
+				  .attr("class", "link")
+				  // .style("stroke", function(d){
+				  // 	return colourScale(d.source[1]);
+				  // })
+				  .attr("marker-end", "url(#end)")
+				  .attr("d", function(d) {
+				    return line([
+				      {
+				        x: d.source.x,
+				        y: d.source.y
+				      }, {
+				        x: d.source.x,
+				        y: d.target.y
+				      }, {
+				        x: d.target.x,
+				        y: d.target.y
+				      }
+				    ]);
+				  })
+				  .attr("fill", "none");
+
+			    //Append circle elements to nodes
+				node.append("circle")
+				  .attr("r", 5);
+
+		    function updateFunc() {
+
+			 	d3.selectAll(".node")
+				  .attr("transform", function(d) { 
+		      		return "translate("+d.x+","+d.y+")";
+		      	  });
+
+		      	d3.selectAll(".link")
+				  .attr("d", function(d) {
+				    return line([
+				      {
+				        x: d.source.x,
+				        y: d.source.y
+				      }, {
+				        x: d.source.x,
+				        y: d.target.y
+				      }, {
+				        x: d.target.x,
+				        y: d.target.y
+				      }
+				    ]);
+				  })
+				  .attr("fill", "none");
+			};
+
+			changeScale = function() {
+			    if (isIndexScale) {
+			      scaleX = d3.scale.ordinal().domain([0, graph.nodes.length]).range([margin.left, width - margin.right]);
+			      isIndexScale = false;
+			      graph.nodes.forEach(function(d, i) {
+			      	d.x = scaleindex(i);
+			      	d.y = height/5 + 100*d[1];
+			      })
+			    } else {
+			      scaleX = d3.scale.linear().domain([minDate, maxDate]).range([margin.left, width - margin.right]);
+			      isIndexScale = true;
+			      graph.nodes.forEach(function(d, i) {
+			      	d.x = scaletime(Number(new Date(d[0].commit.author.date)));
+			      	d.y = height/5 + 100*d[1];
+			      })
+			    }
+			    //Update the function
+			    updateFunc();
+			  };
+
+		//Tooltip
+		d3.selectAll(".node").on("mouseover", function(d){
+			//Get x, y positions of the nodes hovered over
+		  	var currentx = d3.transform(d3.select(this).attr("transform")).translate[0];
+		  	var currenty = d3.transform(d3.select(this).attr("transform")).translate[1];
+			
+			d3.select("#tooltip")
+		  		.style("left", currentx - 50 + "px")
+		  		.style("top", currenty - 70 + "px")
+		  		.select("#value")
+		  		.text(d[0].commit.author.date + " " + d[0].sha + " " + d[0].parents[0].sha);
+
+		  	//Make the tootip visible
+			d3.select("#tooltip").classed("hidden", false);
+		});
+			// console.log(graph.nodes);
+		}) //end of first json read
+	 }) //end of d3.json
+
+</script>
+</body>
+</html>

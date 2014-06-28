@@ -1,0 +1,2081 @@
+[
+  {
+    "sha": "de58cdd5a24a9f6939a338cbc7d3ca5ed6b60f56",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-15T19:12:47Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-15T19:12:47Z"
+      },
+      "message": "continuation of fix for issue #99",
+      "tree": {
+        "sha": "4017bd6694efa498755bc161189dd8f13932aad6",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/4017bd6694efa498755bc161189dd8f13932aad6"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/de58cdd5a24a9f6939a338cbc7d3ca5ed6b60f56",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/de58cdd5a24a9f6939a338cbc7d3ca5ed6b60f56",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/de58cdd5a24a9f6939a338cbc7d3ca5ed6b60f56",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/de58cdd5a24a9f6939a338cbc7d3ca5ed6b60f56/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a6f858950e4aaed473802679acc8803250dea10d",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a6f858950e4aaed473802679acc8803250dea10d",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/a6f858950e4aaed473802679acc8803250dea10d"
+      }
+    ]
+  },
+  {
+    "sha": "a6f858950e4aaed473802679acc8803250dea10d",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-15T16:56:54Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-15T16:56:54Z"
+      },
+      "message": "fix for issue #94",
+      "tree": {
+        "sha": "2f4e20f846f4da86f49b6716ee3a484f230bb237",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/2f4e20f846f4da86f49b6716ee3a484f230bb237"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/a6f858950e4aaed473802679acc8803250dea10d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a6f858950e4aaed473802679acc8803250dea10d",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/a6f858950e4aaed473802679acc8803250dea10d",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a6f858950e4aaed473802679acc8803250dea10d/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ca99ff240673fad2d54d4b8794a950d0f666f8e2",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ca99ff240673fad2d54d4b8794a950d0f666f8e2",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/ca99ff240673fad2d54d4b8794a950d0f666f8e2"
+      }
+    ]
+  },
+  {
+    "sha": "ca99ff240673fad2d54d4b8794a950d0f666f8e2",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-15T16:49:36Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-15T16:49:36Z"
+      },
+      "message": "fix issue #99",
+      "tree": {
+        "sha": "a2beaec418f77211d65cdbb39096f09340b33534",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/a2beaec418f77211d65cdbb39096f09340b33534"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/ca99ff240673fad2d54d4b8794a950d0f666f8e2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ca99ff240673fad2d54d4b8794a950d0f666f8e2",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/ca99ff240673fad2d54d4b8794a950d0f666f8e2",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ca99ff240673fad2d54d4b8794a950d0f666f8e2/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6dfb44d0e5198a3480b84a3c546c3bf55dc16afe",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/6dfb44d0e5198a3480b84a3c546c3bf55dc16afe",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/6dfb44d0e5198a3480b84a3c546c3bf55dc16afe"
+      }
+    ]
+  },
+  {
+    "sha": "6dfb44d0e5198a3480b84a3c546c3bf55dc16afe",
+    "commit": {
+      "author": {
+        "name": "Jasper",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-10T18:14:14Z"
+      },
+      "committer": {
+        "name": "Jasper",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-10T18:14:14Z"
+      },
+      "message": "Merge pull request #98 from slacktracer/master\n\nverlet integrator was misidentified as the improved euler integrator",
+      "tree": {
+        "sha": "770f9a024e2c9e04a7ba999b69f92971a38e6c79",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/770f9a024e2c9e04a7ba999b69f92971a38e6c79"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/6dfb44d0e5198a3480b84a3c546c3bf55dc16afe",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/6dfb44d0e5198a3480b84a3c546c3bf55dc16afe",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/6dfb44d0e5198a3480b84a3c546c3bf55dc16afe",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/6dfb44d0e5198a3480b84a3c546c3bf55dc16afe/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3326229bb154aad1fa3200c5cf65537841e1b509",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/3326229bb154aad1fa3200c5cf65537841e1b509",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/3326229bb154aad1fa3200c5cf65537841e1b509"
+      },
+      {
+        "sha": "89742b74fec102c8d369db83dc7d2f76752f5389",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/89742b74fec102c8d369db83dc7d2f76752f5389",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/89742b74fec102c8d369db83dc7d2f76752f5389"
+      }
+    ]
+  },
+  {
+    "sha": "89742b74fec102c8d369db83dc7d2f76752f5389",
+    "commit": {
+      "author": {
+        "name": "slacktracer",
+        "email": "slacktracer@gmail.com",
+        "date": "2014-06-10T17:44:07Z"
+      },
+      "committer": {
+        "name": "slacktracer",
+        "email": "slacktracer@gmail.com",
+        "date": "2014-06-10T17:44:07Z"
+      },
+      "message": "verlet integrator was misidentified as the improved euler integrator",
+      "tree": {
+        "sha": "f47c87330a44bd55fdb7026e13e73174985c21ab",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/f47c87330a44bd55fdb7026e13e73174985c21ab"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/89742b74fec102c8d369db83dc7d2f76752f5389",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/89742b74fec102c8d369db83dc7d2f76752f5389",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/89742b74fec102c8d369db83dc7d2f76752f5389",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/89742b74fec102c8d369db83dc7d2f76752f5389/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/77c57ec4d60ac385c076144a520acdabbe7ccbd9"
+      }
+    ]
+  },
+  {
+    "sha": "3326229bb154aad1fa3200c5cf65537841e1b509",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-02T17:42:58Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-06-02T17:42:58Z"
+      },
+      "message": "fix package.json",
+      "tree": {
+        "sha": "fd588726a59bb83bf482421fe1a1f386f9986504",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/fd588726a59bb83bf482421fe1a1f386f9986504"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/3326229bb154aad1fa3200c5cf65537841e1b509",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/3326229bb154aad1fa3200c5cf65537841e1b509",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/3326229bb154aad1fa3200c5cf65537841e1b509",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/3326229bb154aad1fa3200c5cf65537841e1b509/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c233389cf205ffeb00bc37c23f59972dc8b4b5a3",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/c233389cf205ffeb00bc37c23f59972dc8b4b5a3",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/c233389cf205ffeb00bc37c23f59972dc8b4b5a3"
+      }
+    ]
+  },
+  {
+    "sha": "c233389cf205ffeb00bc37c23f59972dc8b4b5a3",
+    "commit": {
+      "author": {
+        "name": "Jasper",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-05-31T01:02:21Z"
+      },
+      "committer": {
+        "name": "Jasper",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-05-31T01:02:21Z"
+      },
+      "message": "force canvas to draw image at specified size",
+      "tree": {
+        "sha": "cc658330bdeceb19171d6e00d08202c4e8259739",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/cc658330bdeceb19171d6e00d08202c4e8259739"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/c233389cf205ffeb00bc37c23f59972dc8b4b5a3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/c233389cf205ffeb00bc37c23f59972dc8b4b5a3",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/c233389cf205ffeb00bc37c23f59972dc8b4b5a3",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/c233389cf205ffeb00bc37c23f59972dc8b4b5a3/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/77c57ec4d60ac385c076144a520acdabbe7ccbd9"
+      }
+    ]
+  },
+  {
+    "sha": "77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-05-13T16:27:44Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-05-13T16:27:44Z"
+      },
+      "message": "optimization for array clearing\n\nhttp://jsperf.com/array-destroy/87",
+      "tree": {
+        "sha": "2367ebbb88b86a82865fec930847a703652ca79d",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/2367ebbb88b86a82865fec930847a703652ca79d"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/77c57ec4d60ac385c076144a520acdabbe7ccbd9",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/77c57ec4d60ac385c076144a520acdabbe7ccbd9/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eefc5ace0db496626182821cdcd91fd9e4a4d63d",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/eefc5ace0db496626182821cdcd91fd9e4a4d63d",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/eefc5ace0db496626182821cdcd91fd9e4a4d63d"
+      }
+    ]
+  },
+  {
+    "sha": "eefc5ace0db496626182821cdcd91fd9e4a4d63d",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T22:29:23Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T22:29:23Z"
+      },
+      "message": "Merge branch '1.0.0-rc1'",
+      "tree": {
+        "sha": "c57859738426ab46795fe6ba6367261d235021e1",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/c57859738426ab46795fe6ba6367261d235021e1"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/eefc5ace0db496626182821cdcd91fd9e4a4d63d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/eefc5ace0db496626182821cdcd91fd9e4a4d63d",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/eefc5ace0db496626182821cdcd91fd9e4a4d63d",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/eefc5ace0db496626182821cdcd91fd9e4a4d63d/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7892343046c5ed1398b710bf8d7c8a137b5b649e",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/7892343046c5ed1398b710bf8d7c8a137b5b649e",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/7892343046c5ed1398b710bf8d7c8a137b5b649e"
+      },
+      {
+        "sha": "b96fc612f9f80944531db5ea48288c3a493180cc",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/b96fc612f9f80944531db5ea48288c3a493180cc",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/b96fc612f9f80944531db5ea48288c3a493180cc"
+      }
+    ]
+  },
+  {
+    "sha": "b96fc612f9f80944531db5ea48288c3a493180cc",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T22:28:32Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T22:28:32Z"
+      },
+      "message": "update read me",
+      "tree": {
+        "sha": "c57859738426ab46795fe6ba6367261d235021e1",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/c57859738426ab46795fe6ba6367261d235021e1"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/b96fc612f9f80944531db5ea48288c3a493180cc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/b96fc612f9f80944531db5ea48288c3a493180cc",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/b96fc612f9f80944531db5ea48288c3a493180cc",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/b96fc612f9f80944531db5ea48288c3a493180cc/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d10ec1fa8b38d3d0262d0f00207d66a687ee42a0",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d10ec1fa8b38d3d0262d0f00207d66a687ee42a0",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d10ec1fa8b38d3d0262d0f00207d66a687ee42a0"
+      }
+    ]
+  },
+  {
+    "sha": "d10ec1fa8b38d3d0262d0f00207d66a687ee42a0",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T21:48:55Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T21:48:55Z"
+      },
+      "message": "fix jshint and rebuild",
+      "tree": {
+        "sha": "e95676a5302751efedf8dc4f965a506279eac9ac",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/e95676a5302751efedf8dc4f965a506279eac9ac"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/d10ec1fa8b38d3d0262d0f00207d66a687ee42a0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d10ec1fa8b38d3d0262d0f00207d66a687ee42a0",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d10ec1fa8b38d3d0262d0f00207d66a687ee42a0",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d10ec1fa8b38d3d0262d0f00207d66a687ee42a0/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c8fa4f23edd9ff68b983fabf88cbff5f531175c",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/2c8fa4f23edd9ff68b983fabf88cbff5f531175c",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/2c8fa4f23edd9ff68b983fabf88cbff5f531175c"
+      }
+    ]
+  },
+  {
+    "sha": "2c8fa4f23edd9ff68b983fabf88cbff5f531175c",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T21:47:57Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T21:47:57Z"
+      },
+      "message": "update definition of meta.interpolateTime",
+      "tree": {
+        "sha": "59672d2babb9f1a600365a461b61de897409ef25",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/59672d2babb9f1a600365a461b61de897409ef25"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/2c8fa4f23edd9ff68b983fabf88cbff5f531175c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/2c8fa4f23edd9ff68b983fabf88cbff5f531175c",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/2c8fa4f23edd9ff68b983fabf88cbff5f531175c",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/2c8fa4f23edd9ff68b983fabf88cbff5f531175c/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "91c4b7636ccca94979b37b5798fe8bcfe23dc290",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/91c4b7636ccca94979b37b5798fe8bcfe23dc290",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/91c4b7636ccca94979b37b5798fe8bcfe23dc290"
+      }
+    ]
+  },
+  {
+    "sha": "91c4b7636ccca94979b37b5798fe8bcfe23dc290",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:57:40Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:57:40Z"
+      },
+      "message": "rebuild",
+      "tree": {
+        "sha": "3cca4d3700d3bfbd6985c207c2e9494bac25a843",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/3cca4d3700d3bfbd6985c207c2e9494bac25a843"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/91c4b7636ccca94979b37b5798fe8bcfe23dc290",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/91c4b7636ccca94979b37b5798fe8bcfe23dc290",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/91c4b7636ccca94979b37b5798fe8bcfe23dc290",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/91c4b7636ccca94979b37b5798fe8bcfe23dc290/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c"
+      }
+    ]
+  },
+  {
+    "sha": "a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:56:51Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:56:51Z"
+      },
+      "message": "fix for throttle and interactive method",
+      "tree": {
+        "sha": "03e8cb96f10676de076a2efafec1c4276834dd36",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/03e8cb96f10676de076a2efafec1c4276834dd36"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a2fc9fab1a4cc84e7e7e94e5a998954fcaf19c8c/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2572ad94e62dd88fbb69ff73417fffff6ffad22d",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/2572ad94e62dd88fbb69ff73417fffff6ffad22d",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/2572ad94e62dd88fbb69ff73417fffff6ffad22d"
+      }
+    ]
+  },
+  {
+    "sha": "2572ad94e62dd88fbb69ff73417fffff6ffad22d",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:16:35Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:16:35Z"
+      },
+      "message": "rebuild",
+      "tree": {
+        "sha": "98f391a193a6ed000b3b799a53b854c08dadb504",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/98f391a193a6ed000b3b799a53b854c08dadb504"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/2572ad94e62dd88fbb69ff73417fffff6ffad22d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/2572ad94e62dd88fbb69ff73417fffff6ffad22d",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/2572ad94e62dd88fbb69ff73417fffff6ffad22d",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/2572ad94e62dd88fbb69ff73417fffff6ffad22d/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "740d0101f088318c623301999a6a5f21d2c42368",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/740d0101f088318c623301999a6a5f21d2c42368",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/740d0101f088318c623301999a6a5f21d2c42368"
+      }
+    ]
+  },
+  {
+    "sha": "740d0101f088318c623301999a6a5f21d2c42368",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:16:10Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T17:16:10Z"
+      },
+      "message": "fixed stepping again",
+      "tree": {
+        "sha": "7616f8fa3849c935ca52a831fc8b7c3cd4ecd906",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/7616f8fa3849c935ca52a831fc8b7c3cd4ecd906"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/740d0101f088318c623301999a6a5f21d2c42368",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/740d0101f088318c623301999a6a5f21d2c42368",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/740d0101f088318c623301999a6a5f21d2c42368",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/740d0101f088318c623301999a6a5f21d2c42368/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ccdb1976b589fc10e7b703d0e658e19aebfd50d3",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ccdb1976b589fc10e7b703d0e658e19aebfd50d3",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/ccdb1976b589fc10e7b703d0e658e19aebfd50d3"
+      }
+    ]
+  },
+  {
+    "sha": "ccdb1976b589fc10e7b703d0e658e19aebfd50d3",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T04:19:28Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T04:19:28Z"
+      },
+      "message": "update dist folder and docs",
+      "tree": {
+        "sha": "3611a57a1724424043750513638196fed8a11102",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/3611a57a1724424043750513638196fed8a11102"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/ccdb1976b589fc10e7b703d0e658e19aebfd50d3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ccdb1976b589fc10e7b703d0e658e19aebfd50d3",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/ccdb1976b589fc10e7b703d0e658e19aebfd50d3",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ccdb1976b589fc10e7b703d0e658e19aebfd50d3/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ff2f0559a457456b660ad4fe878009e4ded160b6",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ff2f0559a457456b660ad4fe878009e4ded160b6",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/ff2f0559a457456b660ad4fe878009e4ded160b6"
+      }
+    ]
+  },
+  {
+    "sha": "ff2f0559a457456b660ad4fe878009e4ded160b6",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T04:05:26Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-22T04:05:26Z"
+      },
+      "message": "feature: renderer interpolation.\n\nfixed stepping. added interpolation. true time step independence",
+      "tree": {
+        "sha": "4c4fddbf08bc2d84adb3a15c5b1843295affcff0",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/4c4fddbf08bc2d84adb3a15c5b1843295affcff0"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/ff2f0559a457456b660ad4fe878009e4ded160b6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ff2f0559a457456b660ad4fe878009e4ded160b6",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/ff2f0559a457456b660ad4fe878009e4ded160b6",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/ff2f0559a457456b660ad4fe878009e4ded160b6/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5fe8f1e4d8eedb09dd9811de65309828edb9725f",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/5fe8f1e4d8eedb09dd9811de65309828edb9725f",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/5fe8f1e4d8eedb09dd9811de65309828edb9725f"
+      }
+    ]
+  },
+  {
+    "sha": "5fe8f1e4d8eedb09dd9811de65309828edb9725f",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-21T22:09:26Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-21T22:09:26Z"
+      },
+      "message": "spiffy up the step method",
+      "tree": {
+        "sha": "dc9d0c8acb871c9585b4d24f25d4798f4f651773",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/dc9d0c8acb871c9585b4d24f25d4798f4f651773"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/5fe8f1e4d8eedb09dd9811de65309828edb9725f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/5fe8f1e4d8eedb09dd9811de65309828edb9725f",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/5fe8f1e4d8eedb09dd9811de65309828edb9725f",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/5fe8f1e4d8eedb09dd9811de65309828edb9725f/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d8622caa5ea51b291764ef785cd12a88df243eb6",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d8622caa5ea51b291764ef785cd12a88df243eb6",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d8622caa5ea51b291764ef785cd12a88df243eb6"
+      }
+    ]
+  },
+  {
+    "sha": "d8622caa5ea51b291764ef785cd12a88df243eb6",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-21T17:32:44Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-21T17:32:44Z"
+      },
+      "message": "feature: removed inline lodash build",
+      "tree": {
+        "sha": "8b2ed29163a736baca7738609e85a11dba12980b",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/8b2ed29163a736baca7738609e85a11dba12980b"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/d8622caa5ea51b291764ef785cd12a88df243eb6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d8622caa5ea51b291764ef785cd12a88df243eb6",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d8622caa5ea51b291764ef785cd12a88df243eb6",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d8622caa5ea51b291764ef785cd12a88df243eb6/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e1b0b1445eba8662b49adf78357599fab3ebb4e",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/5e1b0b1445eba8662b49adf78357599fab3ebb4e",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/5e1b0b1445eba8662b49adf78357599fab3ebb4e"
+      }
+    ]
+  },
+  {
+    "sha": "5e1b0b1445eba8662b49adf78357599fab3ebb4e",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-20T21:00:09Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-20T21:00:09Z"
+      },
+      "message": "added bower.json",
+      "tree": {
+        "sha": "720377f6809e1f10277b6e54f852b7b896775c00",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/720377f6809e1f10277b6e54f852b7b896775c00"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/5e1b0b1445eba8662b49adf78357599fab3ebb4e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/5e1b0b1445eba8662b49adf78357599fab3ebb4e",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/5e1b0b1445eba8662b49adf78357599fab3ebb4e",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/5e1b0b1445eba8662b49adf78357599fab3ebb4e/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cda60481a919cc1862e75b887fc430468695dd7a",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/cda60481a919cc1862e75b887fc430468695dd7a",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/cda60481a919cc1862e75b887fc430468695dd7a"
+      }
+    ]
+  },
+  {
+    "sha": "cda60481a919cc1862e75b887fc430468695dd7a",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-18T16:42:31Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-18T16:42:31Z"
+      },
+      "message": "optimized gjk collision detection",
+      "tree": {
+        "sha": "08741793c524e76bc4d7a8946f13924fdd746c53",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/08741793c524e76bc4d7a8946f13924fdd746c53"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/cda60481a919cc1862e75b887fc430468695dd7a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/cda60481a919cc1862e75b887fc430468695dd7a",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/cda60481a919cc1862e75b887fc430468695dd7a",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/cda60481a919cc1862e75b887fc430468695dd7a/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d44e5a4b513bd865e9f70a48e72853966a41ac69",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d44e5a4b513bd865e9f70a48e72853966a41ac69",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d44e5a4b513bd865e9f70a48e72853966a41ac69"
+      }
+    ]
+  },
+  {
+    "sha": "d44e5a4b513bd865e9f70a48e72853966a41ac69",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-18T01:13:17Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-18T01:13:17Z"
+      },
+      "message": "remove unneeded examples folder",
+      "tree": {
+        "sha": "40df4c7aab7c08a513be947afa6ea157c5986d22",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/40df4c7aab7c08a513be947afa6ea157c5986d22"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/d44e5a4b513bd865e9f70a48e72853966a41ac69",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d44e5a4b513bd865e9f70a48e72853966a41ac69",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d44e5a4b513bd865e9f70a48e72853966a41ac69",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d44e5a4b513bd865e9f70a48e72853966a41ac69/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb2a282a014d1a684aaded219dfa9fd6ede43ba8",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/bb2a282a014d1a684aaded219dfa9fd6ede43ba8",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/bb2a282a014d1a684aaded219dfa9fd6ede43ba8"
+      }
+    ]
+  },
+  {
+    "sha": "bb2a282a014d1a684aaded219dfa9fd6ede43ba8",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T23:38:28Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T23:38:28Z"
+      },
+      "message": "Merge branch 'pdoc' into 1.0.0-rc1",
+      "tree": {
+        "sha": "9c3f30e5e1a70ffb3c53366e7af5c82ed7526814",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/9c3f30e5e1a70ffb3c53366e7af5c82ed7526814"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/bb2a282a014d1a684aaded219dfa9fd6ede43ba8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/bb2a282a014d1a684aaded219dfa9fd6ede43ba8",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/bb2a282a014d1a684aaded219dfa9fd6ede43ba8",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/bb2a282a014d1a684aaded219dfa9fd6ede43ba8/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1f36daa5cd772f357d61e0b3833324c7e6c4a06",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/a1f36daa5cd772f357d61e0b3833324c7e6c4a06",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/a1f36daa5cd772f357d61e0b3833324c7e6c4a06"
+      },
+      {
+        "sha": "9478359ead896a8755434f93881f8e50bf8d0c43",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/9478359ead896a8755434f93881f8e50bf8d0c43",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/9478359ead896a8755434f93881f8e50bf8d0c43"
+      }
+    ]
+  },
+  {
+    "sha": "9478359ead896a8755434f93881f8e50bf8d0c43",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T21:28:13Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T21:28:13Z"
+      },
+      "message": "minor fix",
+      "tree": {
+        "sha": "9c3f30e5e1a70ffb3c53366e7af5c82ed7526814",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/9c3f30e5e1a70ffb3c53366e7af5c82ed7526814"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/9478359ead896a8755434f93881f8e50bf8d0c43",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/9478359ead896a8755434f93881f8e50bf8d0c43",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/9478359ead896a8755434f93881f8e50bf8d0c43",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/9478359ead896a8755434f93881f8e50bf8d0c43/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fb7be2db3c74363f967b97a8f4cffa7fdfccbb50",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/fb7be2db3c74363f967b97a8f4cffa7fdfccbb50",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/fb7be2db3c74363f967b97a8f4cffa7fdfccbb50"
+      }
+    ]
+  },
+  {
+    "sha": "fb7be2db3c74363f967b97a8f4cffa7fdfccbb50",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T21:26:46Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T21:26:46Z"
+      },
+      "message": "modified styles",
+      "tree": {
+        "sha": "1e1b0cbbdbb30a134d03b0554e4ccd9b6a17e680",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/1e1b0cbbdbb30a134d03b0554e4ccd9b6a17e680"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/fb7be2db3c74363f967b97a8f4cffa7fdfccbb50",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/fb7be2db3c74363f967b97a8f4cffa7fdfccbb50",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/fb7be2db3c74363f967b97a8f4cffa7fdfccbb50",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/fb7be2db3c74363f967b97a8f4cffa7fdfccbb50/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "29f4e71943c8db4261e0f91406a79cc62181cac8",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/29f4e71943c8db4261e0f91406a79cc62181cac8",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/29f4e71943c8db4261e0f91406a79cc62181cac8"
+      }
+    ]
+  },
+  {
+    "sha": "29f4e71943c8db4261e0f91406a79cc62181cac8",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T19:34:51Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T19:34:51Z"
+      },
+      "message": "created rectangle body/geometry",
+      "tree": {
+        "sha": "db87d485fe1efb2a085b1c1fd2c2cba6f3db796d",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/db87d485fe1efb2a085b1c1fd2c2cba6f3db796d"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/29f4e71943c8db4261e0f91406a79cc62181cac8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/29f4e71943c8db4261e0f91406a79cc62181cac8",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/29f4e71943c8db4261e0f91406a79cc62181cac8",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/29f4e71943c8db4261e0f91406a79cc62181cac8/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d3e7aba4aed605e726b1a524ea3d1f20cf52f65e",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d3e7aba4aed605e726b1a524ea3d1f20cf52f65e",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d3e7aba4aed605e726b1a524ea3d1f20cf52f65e"
+      }
+    ]
+  },
+  {
+    "sha": "d3e7aba4aed605e726b1a524ea3d1f20cf52f65e",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T17:43:45Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-15T17:43:45Z"
+      },
+      "message": "optimization",
+      "tree": {
+        "sha": "edb49ecae166ba1c0de63c8dfc98a2b9e9f72aef",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/edb49ecae166ba1c0de63c8dfc98a2b9e9f72aef"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/d3e7aba4aed605e726b1a524ea3d1f20cf52f65e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d3e7aba4aed605e726b1a524ea3d1f20cf52f65e",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/d3e7aba4aed605e726b1a524ea3d1f20cf52f65e",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/d3e7aba4aed605e726b1a524ea3d1f20cf52f65e/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb3ae50a305e25e0a81eb16936af046e6d159f50",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/cb3ae50a305e25e0a81eb16936af046e6d159f50",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/cb3ae50a305e25e0a81eb16936af046e6d159f50"
+      }
+    ]
+  },
+  {
+    "sha": "cb3ae50a305e25e0a81eb16936af046e6d159f50",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-13T21:52:10Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-13T21:52:10Z"
+      },
+      "message": "finished docs",
+      "tree": {
+        "sha": "e05fc7de4e57294b562bf7271811b9a83dd1b394",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/e05fc7de4e57294b562bf7271811b9a83dd1b394"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/cb3ae50a305e25e0a81eb16936af046e6d159f50",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/cb3ae50a305e25e0a81eb16936af046e6d159f50",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/cb3ae50a305e25e0a81eb16936af046e6d159f50",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/cb3ae50a305e25e0a81eb16936af046e6d159f50/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36cda38c832dc6032c5e923361d99efad42e82ee",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/36cda38c832dc6032c5e923361d99efad42e82ee",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/36cda38c832dc6032c5e923361d99efad42e82ee"
+      }
+    ]
+  },
+  {
+    "sha": "36cda38c832dc6032c5e923361d99efad42e82ee",
+    "commit": {
+      "author": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-13T20:06:27Z"
+      },
+      "committer": {
+        "name": "Jasper Palfree",
+        "email": "well.caffeinated@gmail.com",
+        "date": "2014-04-13T20:06:27Z"
+      },
+      "message": "big optimization for gjk",
+      "tree": {
+        "sha": "de2c8435952ba4e9cac1644037dda84eeb9e78cf",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/trees/de2c8435952ba4e9cac1644037dda84eeb9e78cf"
+      },
+      "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/git/commits/36cda38c832dc6032c5e923361d99efad42e82ee",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/36cda38c832dc6032c5e923361d99efad42e82ee",
+    "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/36cda38c832dc6032c5e923361d99efad42e82ee",
+    "comments_url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/36cda38c832dc6032c5e923361d99efad42e82ee/comments",
+    "author": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "wellcaffeinated",
+      "id": 1128935,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128935?",
+      "gravatar_id": "507cd6b6e8a372ef9b25fb743b109648",
+      "url": "https://api.github.com/users/wellcaffeinated",
+      "html_url": "https://github.com/wellcaffeinated",
+      "followers_url": "https://api.github.com/users/wellcaffeinated/followers",
+      "following_url": "https://api.github.com/users/wellcaffeinated/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wellcaffeinated/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wellcaffeinated/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wellcaffeinated/subscriptions",
+      "organizations_url": "https://api.github.com/users/wellcaffeinated/orgs",
+      "repos_url": "https://api.github.com/users/wellcaffeinated/repos",
+      "events_url": "https://api.github.com/users/wellcaffeinated/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wellcaffeinated/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79786a899df192cac13992b3eb459e03899cfb73",
+        "url": "https://api.github.com/repos/wellcaffeinated/PhysicsJS/commits/79786a899df192cac13992b3eb459e03899cfb73",
+        "html_url": "https://github.com/wellcaffeinated/PhysicsJS/commit/79786a899df192cac13992b3eb459e03899cfb73"
+      }
+    ]
+  }
+]
