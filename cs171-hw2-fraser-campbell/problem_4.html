@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<title>Streamgraph of Github Commits</title>
+
+<style>
+
+.tooltip_text{
+	font-size: 16px;
+	font-family: georgia;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+</style>
+
+<body>
+	<h1>Streamgraph of Github Commits</h1>
+	<h3>Select "Change Visualisation" to switch between viewing all commits from all branches, or viewing each commit only once.</h3>
+	<button onclick="transition()">Change Visualisation</button>
+	<div><p style="font-size:16px"><strong>Branch: </strong><span id = "tooltip"></span></p></div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+	var tooltip = d3.select("#tooltip")
+					// // .attr("transform", "translate(20," + 10 + ")")
+					// .style("position", "relative")
+					.style("visibility", "hidden")
+					// .style("top", "15px")
+					// .style("left", "20px");
+
+
+	var width = 800,
+	    height = 400;
+
+	var margin = {
+	 	top: 50,
+	 	bottom: 100,
+	 	left: 10,
+	 	right: 10
+	 };
+
+	var svg = d3.select("body").append("svg")
+	            .attr("width", width)
+	            .attr("height", height + margin.bottom + margin.top);
+
+	//Function to make an HTTP request
+	//FUNCTION CALLED WHENEVER WE WANT TO GET FROM API
+	getData = function(url) {
+	  var data, linkHeader, links, request;
+	  // console.log("Getting data from " + url);
+	  request = new XMLHttpRequest();
+	  request.open('GET', url, false);
+	  request.send();
+	  if (request.status === 200) {
+	    data = JSON.parse(request.responseText);
+	  } else {
+	    throw new Error("" + request.status + " " + request.statusText);
+	  }
+	  linkHeader = request.getResponseHeader("Link");
+	  links = parseLinkHeader(linkHeader);
+	  if ("next" in links) {
+	    data = data.concat(getData(links["next"]));
+	  }
+	  return data;
+	};
+
+	//FUNCTION REMOVES NEXT PAGE rel-url FROM HEADER - USED WHEN QUERY OVER A NUMBER OF PAGES
+	parseLinkHeader = function(header) {
+	  var links, rel, segments, url, value, values, _i, _len;
+	  if (header === null) {
+	    return {};
+	  }
+	  values = header.split(',');
+	  links = {};
+	  for (_i = 0, _len = values.length; _i < _len; _i++) {
+	    value = values[_i];
+	    segments = value.split(';');
+	    url = segments[0].replace(/<(.*)>/, '$1').trim();
+	    rel = segments[1].replace(/rel="(.*)"/, '$1').trim();
+	    links[rel] = url;
+	  }
+	  return links;
+	};
+
+	//Root URL for the repo that we want to query
+	var rootUrl = "https://api.github.com/repos/dhawalhshah/class-central/";
+	var accessToken = "4b38459e215c371cafee7499ad843daf10bb0bbc";
+	//Load the data from github API
+	var branches = getData("" + rootUrl + "branches?access_token=" + accessToken);
+	var commits = {}
+	var dates_unique = {}
+	var dates_duplicates = {}
+	var dates_computer_unique = {}
+	var dates_computer_duplicates = {}
+	for(i = 0; i < branches.length; i++){
+		branch = branches[i].name;
+		temporary_date_array = [];
+		//Load the commit data from api call into the commits data structure, for each branch
+		commits[branch] = getData("" + rootUrl + "commits?sha=" + branch + "&per_page=100&access_token=" + accessToken);
+		
+		//NB: THIS IS ALL COMMITS - POTENTIAL DUPLICATEs
+		//Loop through each commit and select the date of the commit and push it to an array which is then stored under that particular branch name
+		commits[branch].forEach(function(d, i){
+			temporary_date_array.push(d.commit.author.date);
+		})
+		dates_duplicates[branch] = temporary_date_array;
+	}
+
+	//THIS IS ALL COMMITS ONLY ONCE
+	//Generate an array of master commit shas
+	var master_sha = [];
+	temporary_date_array_master = [];
+	commits["master"].forEach(function(d, i){
+		temporary_date_array_master.push(d.commit.author.date);
+		master_sha.push(d.sha);
+	})
+	//Generate the rest of the branches' data without including the commits that already appear in the master branch
+	for(i = 0; i < branches.length; i++){
+		temporary_date_array = [];
+		branch = branches[i].name;
+		commits[branch].forEach(function(d, j){
+			if(master_sha.indexOf(d.sha) < 0){
+				temporary_date_array.push(d.commit.author.date);
+			}
+		})
+		//To avoid ovverwriting the master branch
+		if(branch != "master"){
+			dates_unique[branch] = temporary_date_array;
+		}
+		else{
+			dates_unique[branch] = temporary_date_array_master;
+		}
+	}
+	//NB: At this stage dates only has branches which have commits not also appearing on the 'master' branch
+
+	//Find the global max and global min of all commit dates
+	var max = 0;
+	//Select min date from first branch as a starting point
+	var min = d3.min((dates_unique["master"]).map(function(d, i){ return Number(new Date(d)); }));
+	
+
+	//FUNCTION TO CREATE DATES INTO COMPUTER DATES
+	comp_date = function(dates){
+		dates_computer = {};
+		//Create a data structure for dates that is not a string
+		for(i = 0; i < branches.length; i++){
+			branch = branches[i].name;
+			//NB: Create a new dates_computer object containing dates of branches not on 'master'
+			dates_computer[branch] = dates[branch].map(function(d, i){
+				return Number(new Date(d))
+			});
+			if(d3.min(dates_computer[branch]) < min){
+				min = d3.min(dates_computer[branch]);
+			}
+			if(d3.max(dates_computer[branch]) > max){
+				max = d3.max(dates_computer[branch]);
+			}
+		};
+		return dates_computer;
+	}
+
+	dates_computer_unique = comp_date(dates_unique);
+	dates_computer_duplicates = comp_date(dates_duplicates);
+
+	//Define xscale
+	var m = 50; // number of histogram bins considered
+    var xScale = d3.scale.linear().domain([min, max]).range([0, m]);
+
+    var scaled_dates = {}
+    var histogram_data = {}
+    //Define the histogram bins
+    var hist_bins = [xScale(min)]
+    var bin_width = (max - min) / m;
+    var current = min;
+    //This code creates an array of all the bin widths to be used when creating the stream graph
+    while(current < max){
+    	hist_bins.push(xScale(current + bin_width));
+    	current = current + bin_width;
+    }
+
+    stream_data_fn = function(dates_computer){
+	    for(i = 0; i < branches.length; i++){
+	    	branch = branches[i].name;
+	    	scaled_dates[branch] = dates_computer[branch].map(function(d, i){ return xScale(d); });
+	    	histogram_data[branch] = d3.layout.histogram().bins(hist_bins)(scaled_dates[branch]);
+	    }
+
+	    //BELOW HERE - HISTOGRAM TESTING and GENERATING
+	    	// var x = d3.scale.linear()
+			//     .domain([0, m])
+			//     .range([0, width]);
+		 //    var y = d3.scale.linear()
+			//     .domain([0, d3.max(histogram_data[branch], function(d) { return d.y; })])
+			//     .range([height, 0]);
+		 //    var bar = svg.selectAll(".bar")
+		 //    			.data(histogram_data[branch])
+		 //    			.enter().append("rect")
+		 //    			.attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; })
+		 //    			.attr("width", 10*histogram_data[branch][0].dx)
+		 //    			.attr("height", function(d) { return (height - y(d.y)); });
+
+		//Create data structure for stream graph
+	    var stream_data = []
+		for(i = 0; i < branches.length; i++){
+			//Each branch is below
+			branch = branches[i].name;
+			temp_var = histogram_data[branch].map(function(d, i){ return {x: i, y: Math.sqrt(d.y)/(d.y + 100), branch_name: branch}; });
+			stream_data.push(temp_var);
+		}
+		return stream_data;
+	}
+
+	stream_data_unique = stream_data_fn(dates_computer_unique);
+	stream_data_duplicates = stream_data_fn(dates_computer_duplicates);
+
+	//FROM HERE STREAMGRAPH
+	var stack = d3.layout.stack().offset("wiggle");
+	var layers0 = stack(stream_data_unique);
+	var layers1 = stack(stream_data_duplicates);
+	
+	var x = d3.scale.linear()
+	    .domain([0, m - 1])
+	    .range([margin.left, width - margin.right]);
+
+	var y_0 = d3.scale.linear()
+	    .domain([0, d3.max(layers0, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); })])
+	    .range([height - margin.bottom, margin.top]);
+
+	var y_1 = d3.scale.linear()
+	    .domain([0, d3.max(layers1, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); })])
+	    .range([height - margin.bottom, margin.top]);
+
+	var palette = d3.scale.category20();
+	var r = palette.range();
+	var color = d3.scale.ordinal().range(r);
+
+	area_fn = function(){
+		var temporary_scale = y_0;
+			y_0 = y_1;
+		    y_1 = temporary_scale;
+
+		var area = d3.svg.area()
+		    .x(function(d) { return x(d.x); })
+		    .y0(function(d) { return y_1(d.y0); })
+		    .y1(function(d) { return y_1(d.y0 + d.y); });
+		return area;
+	}
+
+	area = area_fn();
+
+	svg.selectAll("path")
+	    .data(layers0)
+	    .enter().append("path")
+	    .attr("class", "stream")
+	    .attr("d", area)
+	    .style("fill", function() { return color(Math.random()); });
+
+	//MOUSEOVER FUNCTION
+	d3.selectAll(".stream").on("mouseover", function(d, i){
+		d3.selectAll(".stream")
+			.attr("opacity", function(e, j){
+				return i != j ? 0.4 : 1;
+			})
+		d3.select("#tooltip").text(d[0].branch_name).attr("class", "tooltip_text")
+			.style("visibility", "visible");
+
+	})
+
+	d3.selectAll(".stream").on("mouseout", function(d, i){
+		d3.select("#tooltip").style("visibility", "hidden");
+		d3.selectAll(".stream").attr("opacity", 1);
+	})
+
+	//X-AXIS
+	//Define new axis so that it shows actual dates rather than timestamps
+	var xScale_new = d3.time.scale().domain([(new Date(min)), (new Date(max))]).range([margin.left, width - margin.right]);
+	var translate_height = height + 2; //Moving the axis 2 px down (below the svg) to see axis line
+	var xAxis = d3.svg.axis()
+	    .scale(xScale_new)
+	    .orient("bottom").ticks(10)
+	    .tickFormat(d3.time.format("%Y-%m-%d"));
+	svg.append("g")
+	    .attr("class", "x axis")
+	    .attr("transform", "translate(0," + translate_height + ")")
+	    .call(xAxis)
+	    	.selectAll("text")
+	    	.style("text-anchor", "end")
+	    	.attr("transform", function(d){
+	    		return "rotate(-65)"
+	    	});
+
+	function transition() {
+
+	  area = area_fn();
+	  
+	  d3.selectAll("path")
+	    .data(function() {
+	        var d = layers1;
+	        layers1 = layers0;
+	        return layers0 = d;
+	    })
+	    .transition()
+	      .duration(2500)
+	      .attr("d", area);
+	}
+
+</script>
+</body>
+</html>
