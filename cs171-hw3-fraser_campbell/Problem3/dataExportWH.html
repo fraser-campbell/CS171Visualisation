@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script src="../libs/jquery-1.10.1.js"></script>
+    <script src="../libs/jquery.xdomainajax.js"></script>
+    <script src="../libs/d3.v3.min.js"></script>
+    <script src="../libs/FileSaver.js"></script>
+</head>
+<body>
+
+<script>
+    var convertToInt;
+
+    $.ajax({
+        url: "http://unglobalpulse.net/ewec/",
+        type: 'GET',
+        cache: false,
+        success: function(data) {
+            var root,allData, body, table;
+            root = $("<div></div>")
+            root.html(data.responseText)
+
+            var content = root.find("#content"); // find all the nodes that have ID "content"
+            var header = root.find("table tbody tr:lt(1)"); // search in all "content" nodes for nodes of class ".mw-headline"
+            var rows = root.find("table tbody tr:gt(0)");
+
+
+
+            var analysis = header.find("td:lt(1) strong").text()
+            var w_health = header.find("td:gt(2) strong").text()
+
+
+            write_to_file = [analysis + ", "+ w_health];
+            console.log(write_to_file)
+            // console.log(write_to_file)
+            $.each(rows, function(row_i, row_v) {
+                // string = ""
+                $(row_v).children("td").each(function(td_i, td_v){
+                  if (td_i == 0){
+                    string = $(td_v).text()
+                    string = string.trim()
+                  }
+                  if(td_i == 3){
+                    string = string + "," + convertToInt($(td_v).text())
+
+                  }
+                });
+            write_to_file.push(string);
+            });
+
+
+
+			       saveToFile(write_to_file,"WH.csv");
+            },
+
+          error: function() {
+              return console.log("error");
+          }
+    });
+
+    convertToInt = function(s) {
+        return parseInt(s.replace(/,/g, ""), 10);
+    };
+	
+    /* takes an array of strings
+       and writes them line by line into a file given by filename
+     */
+    var saveToFile = function(arrayOfLines, fileName) {
+       /* adds linebreaks at the end*/
+       var blob, blobText;
+       blobText = arrayOfLines.map(function(d) {
+        console.log(d)
+         if (d.endsWith("\n")) {
+           return d;
+         } else {
+           return d + "\n";
+         }
+       });
+       blob = new Blob(blobText, {
+         type: "text/plain;charset=utf-8"
+       });
+       return saveAs(blob, fileName);
+     };
+
+     String.prototype.endsWith = function(suffix) {
+       return this.indexOf(suffix, this.length - suffix.length) !== -1;
+     };
+	
+
+
+
+</script>
+
+
+</body>
+</html>

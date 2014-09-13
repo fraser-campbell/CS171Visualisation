@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <script src="../libs/jquery-1.10.1.js"></script>
+    <script src="../libs/jquery.xdomainajax.js"></script>
+    <script src="../libs/d3.v3.min.js"></script>
+    <script src="../libs/FileSaver.js"></script>
+</head>
+<body>
+
+<script>
+    var convertToInt;
+
+    $.ajax({
+        url: "http://en.wikipedia.org/wiki/World_population_estimates",
+        type: 'GET',
+        cache: false,
+        success: function(data) {
+            var root,allData, body, table;
+            root = $("<div></div>")
+            root.html(data.responseText)
+
+            var content = root.find("#content"); // find all the nodes that have ID "content"
+            var h2s = content.find(".mw-headline"); // search in all "content" nodes for nodes of class ".mw-headline"
+            var rows = root.find(".wikitable tbody tr:gt(13)")
+            // var cells = rows.find("td")
+            // console.log(rows.innerHTML);
+            // console.log(rows.length);
+
+            write_to_file = ["year,USCensus,PopulationBureau,UN,HYDE,Maddison"];
+            $.each(rows, function(row_i, row_v) {
+                string = ""
+                $(row_v).children("td").each(function(td_i, td_v){
+                  if (td_i < 7){
+                    value = $(td_v)
+                    value = convertToInt(value.text())
+                    if(value){
+                      string = string + value + ','
+                    }
+                    else {
+                      string += ','
+                    }
+
+                    // console.log(value);
+                  
+                    // console.log($(td_v).text());
+                  }
+                });
+                // console.log(string)
+                write_to_file.push(string.substring(0, string.length - 1));
+            });
+
+
+            // $.each(h2s, function(index, value) {
+            //     console.log($(value).text()); // print text
+            // });
+
+			write_to_file.splice(-50)
+			saveToFile(write_to_file,"test.txt")
+        },
+        error: function() {
+            return console.log("error");
+        }
+    });
+
+    convertToInt = function(s) {
+        return parseInt(s.replace(/,/g, ""), 10);
+    };
+	
+    /* takes an array of strings
+       and writes them line by line into a file given by filename
+     */
+    var saveToFile = function(arrayOfLines, fileName) {
+       /* adds linebreaks at the end*/
+       var blob, blobText;
+       blobText = arrayOfLines.map(function(d) {
+         if (d.endsWith("\n")) {
+           return d;
+         } else {
+           return d + "\n";
+         }
+       });
+       blob = new Blob(blobText, {
+         type: "text/plain;charset=utf-8"
+       });
+       return saveAs(blob, fileName);
+     };
+
+     String.prototype.endsWith = function(suffix) {
+       return this.indexOf(suffix, this.length - suffix.length) !== -1;
+     };
+	
+
+
+
+</script>
+
+
+</body>
+</html>
