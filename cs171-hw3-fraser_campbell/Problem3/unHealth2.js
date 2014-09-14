@@ -212,27 +212,102 @@ createVis = function() {
         .attr("height", height);
 
 
-    var brush = d3.svg.brush().x(xScale).on("brush", brushed);
+    var brush = d3.svg.brush().x(xScale).on("brush", brushed); //NB: 1.01 The x(xScale) here means that the extent function will be scaled by xScale
 
-    overview.append("g").attr("class", "brush")
+    overview.append("g").attr("class", "brush extent")
         .call(brush)
         .selectAll("rect")
         .attr("height", bbOverview.h);
         // transform: "translate(20,100)"
         // });
 
-    function brushed(){
-        // console.log(brush.extent())
-        xScale_r.domain(brush.empty() ? xScale.domain() : brush.extent());
+    function brushed(optional_arg){
+
+        if(typeof optional_arg === "undefined"){
+            xScale_r.domain(brush.empty() ? xScale.domain() : brush.extent());
+        } else {
+            xScale_r.domain(optional_arg)
+        }
         // console.log(xScale_r.domain())
         detail.select(".detailArea").attr("d", line_dt);
         detail.selectAll("circle")
-            .attr("cx", function(d) { console.log(d)
-                return xScale_r(d.date)})
+            .attr("cx", function(d) { return xScale_r(d.date)})
             .attr("cy", function(d) { return yScale_r(d.health)});
         detail.select("g.x.axis").call(xAxis_r);
     };
+
+    //-----------------------------Creating a tooltip----------------------------------------------    
+
+    var div = d3.select("body").append("div")   
+        .attr("class", "tooltip")               
+        .style("opacity", 0);
+
+    data_highlight = []
+    data_highlight.push({date: xScale(format.parse("February 2012")), health: yScale(parseInt("302149")), id: "point1", clicked: "no"});
+    data_highlight.push({date: xScale(format.parse("August 2012")), health: yScale(parseInt("289843")), id: "point2", clicked: "no"});
+    console.log(data_highlight)
+
+
+    // console.log(xScale(format.parse("February 2012")))
+    // console.log(xScale(format.parse("August 2012")))
+
+    //-----------------------------Creating the default details---------------------------------------------- 
+
+        overview.append("g")
+            .selectAll(".hover_point")
+            .data(data_highlight)
+            .enter()
+            .append("svg:circle")
+            .attr("class", "points highlight")
+            .attr("fill", "black")
+            .attr("r", 5)
+            .attr("cx", function(d, i) { return d.date})
+            .attr("cy", function(d, i) { return d.health})
+            .on("mouseover", function(d) {  //This is the function which on mouseover creates the tooltip
+                div.transition()       
+                    .duration(200)      
+                    .style("opacity", .9); 
+                div .html("What" + "<br/>")  
+                    .style("left", (d3.event.pageX) + "px")     
+                    .style("top", (d3.event.pageY - 28) + "px");
+                })   
+            .on("mouseout", function(d) {       
+                div.transition()        
+                    .duration(500)      
+                    .style("opacity", 0);  
+            })
+            .on("click", function(d, i){ //This is the function which changes the brush based on clicking
+                if(d.id == "point1"){
+                    if(d.clicked == "no"){
+                        d.clicked = "yes"
+                        //The following code changes the brush applied to the overview - NB: use the brush extent property which takes date values (see 1.01 line 215)
+                            brush.extent([format.parse("December 2011"), format.parse("April 2012")]);
+                            overview.select('.brush').call(brush);
+                        return brushed([format.parse("December 2011"), (format.parse("April 2012"))]);  
+                    } else {
+                        d.clicked = "no"
+                            brush.extent([format.parse("September 2009"), format.parse("January 2014")]);
+                            overview.select('.brush').call(brush);
+                        return brushed([format.parse("September 2009"), (format.parse("January 2014"))]);
+                    }
+                }
+                else if (d.id == "point2"){
+                    if(d.clicked == "no"){
+                        d.clicked = "yes"
+                        //The following code changes the brush applied to the overview - NB: use the brush extent property which takes date values
+                            brush.extent([format.parse("June 2012"), format.parse("October 2012")]);
+                            overview.select('.brush').call(brush);
+                        return brushed([format.parse("June 2012"), (format.parse("October 2012"))]);  
+                    } else {
+                        d.clicked = "no"
+                            brush.extent([format.parse("September 2009"), format.parse("January 2014")]);
+                            overview.select('.brush').call(brush);
+                        return brushed([format.parse("September 2009"), (format.parse("January 2014"))]);
+                    }
+                }
+            });
 };
+
 
 
 
